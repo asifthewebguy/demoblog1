@@ -1,7 +1,7 @@
 ---
-title: My first Blog Post
+title: My second Blog Post
 description: Learning how to use @nuxt/content to create a blog
-img: blog-1.jpg
+img: blog-2.jpg
 alt: my first blog post
 slug: first-post
 author:
@@ -10,7 +10,7 @@ author:
   image: https://images.unsplash.com/.....
 ---
 
-# My first blog post
+# My Second blog post
 
 Welcome to my first blog post using content module
 

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="container max-w-6xl flex">
+  <div class="container">
+    <div class="container flex mx-auto">
       <div class="about max-w-2/3">
         <h2>{{ homePage.author }}</h2>
         <nuxt-content :document="homePage" />
@@ -14,7 +14,7 @@
       <ul>
         <li v-for="article of articles" :key="article.slug">
           <!-- <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }"> -->
-          <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+          <NuxtLink :to="{ name: 'article-slug', params: { slug: article.slug } }">
             <img :src="require(`~/assets/images/${article.img}`)" />
             <div>
               <h2>{{ article.title }}</h2>
