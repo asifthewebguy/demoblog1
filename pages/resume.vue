@@ -1,11 +1,7 @@
 <template>
-  <div>
-    This is My resume page.
-  </div>
+  <div>This is My resume page.</div>
 </template>
 
 <script>
-  export default {
-
-  }
+export default {}
 </script>

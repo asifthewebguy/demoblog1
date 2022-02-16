@@ -1,17 +1,13 @@
 <template>
-  <footer>
-    &copy; Asif Chowdhury {{ new Date().getFullYear() }}
-  </footer>
+  <footer>&copy; Asif Chowdhury {{ new Date().getFullYear() }}</footer>
 </template>
 
 <script>
-  export default {
-
-  }
+export default {}
 </script>
 
 <style scoped>
-footer{
+footer {
   width: 100vw;
   text-align: center;
   position: fixed;

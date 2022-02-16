@@ -2,7 +2,9 @@
   <nav>
     <ul>
       <li>
-        <nuxt-link to="/"><i class="fa fa-home" aria-hidden="true"></i></nuxt-link>
+        <nuxt-link to="/"
+          ><i class="fa fa-home" aria-hidden="true"></i
+        ></nuxt-link>
       </li>
       <li>
         <nuxt-link to="about">About</nuxt-link>
@@ -24,21 +26,19 @@
 </template>
 
 <script>
-  export default {
-
-  }
+export default {}
 </script>
 
 <style scoped>
 /* horizontal navigation */
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav li{
+nav li {
   list-style: none;
   display: inline-block;
   margin: 0 10px;
@@ -46,18 +46,18 @@ nav li{
 }
 
 .icon.icon-home {
-    background-image: url('~assets/svg/house.svg');
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-size: 20px 20px;
+  background-image: url('~assets/svg/house.svg');
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
 }
 
-  .icon.icon-moon {
-    background-image: url('~assets/svg/moon.svg');
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-size: 20px 20px;
-  }
+.icon.icon-moon {
+  background-image: url('~assets/svg/moon.svg');
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+}
 </style>

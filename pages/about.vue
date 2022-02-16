@@ -1,11 +1,7 @@
 <template>
-  <div>
-    this is my about page
-  </div>
+  <div>this is my about page</div>
 </template>
 
 <script>
-  export default {
-
-  }
+export default {}
 </script>

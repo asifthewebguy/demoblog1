@@ -7,4 +7,4 @@ img: blog-2.jpg
 
 ## About Me
 
-This is my second blog post, this post contains about me. this is just a test. 
+This is my second blog post, this post contains about me. this is just a test.
