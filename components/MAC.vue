@@ -1,5 +1,5 @@
 <template>
-  <a href="/" class="logo-link">
+  <a href="/" class="logo-link flex items-center">
     <svg
       class="logo"
       width="64"
@@ -37,25 +37,10 @@
         fill="black"
       />
     </svg>
-    <h1 class="title">Mohammad Asif Uollah Chowdhury</h1>
+    <h1 class="title text-2xl font-bold">Mohammad Asif Uollah Chowdhury</h1>
   </a>
 </template>
 
 <script>
 export default {}
 </script>
-
-<style scoped>
-.logo-link {
-  display: flex;
-}
-
-.logo {
-  display: block;
-}
-
-.title {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-</style>

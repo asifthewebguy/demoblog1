@@ -1,26 +1,40 @@
 <template>
-  <nav>
+  <nav class="flex justify-between items-center">
     <ul>
-      <li>
-        <nuxt-link to="/"
-          ><i class="fa fa-home" aria-hidden="true"></i
-        ></nuxt-link>
+      <li class="list-none inline-block mx-4">
+        <nuxt-link to="/">
+          <i class="icon icon-home" aria-hidden="true"></i>
+        </nuxt-link>
       </li>
-      <li>
+      <li class="list-none inline-block mx-4">
         <nuxt-link to="about">About</nuxt-link>
       </li>
-      <li>
+      <li class="list-none inline-block mx-4">
         <nuxt-link to="work">Work</nuxt-link>
       </li>
-      <li>
+      <li class="list-none inline-block mx-4">
         <nuxt-link to="contact">Contact</nuxt-link>
       </li>
-      <li>
+      <li class="list-none inline-block mx-4">
         <nuxt-link to="resume">Resume</nuxt-link>
       </li>
-      <li>
-        <i class="fa fa-moon-o" aria-hidden="true"></i>
+      <li class="list-none inline-block mx-4">
+        <i class="icon icon-moon" aria-hidden="true"></i>
       </li>
+      <!-- <router-link
+        to="resume"
+        custom
+        v-slot="{ href, route, navigate, isActive, isExactActive }"
+      >
+        <li
+          :class="[
+            isActive && 'router-link-active',
+            isExactActive && 'router-link-exact-active',
+          ]"
+        >
+          <a :href="href" @click="navigate">{{ route.name }}</a>
+        </li>
+      </router-link> -->
     </ul>
   </nav>
 </template>
@@ -32,32 +46,15 @@ export default {}
 <style scoped>
 /* horizontal navigation */
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.icon {
+  @apply inline-block w-4 h-4 bg-contain  bg-no-repeat;
 }
 
-nav li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 10px;
-  cursor: pointer;
-}
-
-.icon.icon-home {
+.icon-home {
   background-image: url('~assets/svg/house.svg');
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-size: 20px 20px;
 }
 
-.icon.icon-moon {
+.icon-moon {
   background-image: url('~assets/svg/moon.svg');
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-size: 20px 20px;
 }
 </style>
