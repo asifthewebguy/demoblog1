@@ -1,5 +1,7 @@
 <template>
-  <header class="flex justify-between w-full shadow-md sm:justify-center sm:flex-col md:flex-col">
+  <header
+    class="flex justify-between w-full shadow-md sm:justify-center sm:flex-col md:flex-col"
+  >
     <MAC />
     <Navigation />
   </header>
