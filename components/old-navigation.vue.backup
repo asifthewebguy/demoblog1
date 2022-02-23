@@ -1,0 +1,50 @@
+    <template>
+      <nav class="flex items-center justify-between">
+    <ul>
+      <li class="inline-block mx-4 list-none">
+        <nuxt-link to="/">
+          <i class="icon icon-home" aria-hidden="true"></i>
+        </nuxt-link>
+      </li>
+      <li class="inline-block mx-4 list-none">
+        <nuxt-link to="about">About</nuxt-link>
+      </li>
+      <li class="inline-block mx-4 list-none">
+        <nuxt-link to="work">Work</nuxt-link>
+      </li>
+      <li class="inline-block mx-4 list-none">
+        <nuxt-link to="contact">Contact</nuxt-link>
+      </li>
+      <li class="inline-block mx-4 list-none">
+        <nuxt-link to="resume">Resume</nuxt-link>
+      </li>
+      <li class="inline-block mx-4 list-none">
+        <i class="icon icon-moon" aria-hidden="true"></i>
+      </li>
+      <!-- <router-link
+        to="resume"
+        custom
+        v-slot="{ href, route, navigate, isActive, isExactActive }"
+      >
+        <li
+          :class="[
+            isActive && 'router-link-active',
+            isExactActive && 'router-link-exact-active',
+          ]"
+        >
+          <a :href="href" @click="navigate">{{ route.name }}</a>
+        </li>
+      </router-link> -->
+    </ul>
+</nav>
+    </template>
+
+    <script>
+      export default {
+
+      }
+    </script>
+
+    <style scoped>
+
+    </style>
