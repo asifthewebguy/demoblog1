@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-10">
+  <div>
     <Header />
     <Nuxt />
     <Footer />
@@ -14,19 +14,3 @@ export default {
   components: { MAC, Navigation, Header },
 }
 </script>
-
-<style scoped>
-:root {
-  font-size: 16px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  margin-top: 80px;
-}
-</style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container grid grid-cols-1 mx-auto divide-y-2 sm:mx-0 md:w-md">
     <div class="container flex mx-auto">
       <div class="about max-w-2/3">
         <h2>{{ homePage.author }}</h2>
