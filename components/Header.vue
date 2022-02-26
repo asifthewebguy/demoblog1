@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex justify-around w-full shadow-md sm:justify-center sm:flex-col md:flex-col"
+    class="sticky top-0 z-50 flex justify-between w-full bg-white shadow-md sm:justify-center sm:flex-col md:flex-col"
   >
     <MAC />
     <Navigation />
