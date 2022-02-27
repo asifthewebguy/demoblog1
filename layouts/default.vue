@@ -1,7 +1,9 @@
 <template>
   <div>
     <Header />
-    <div class="container z-0 grid grid-cols-1 mx-auto divide-y-2 sm:mx-0 md:w-md">
+    <div
+      class="container z-0 grid grid-cols-1 mx-auto divide-y-2 sm:mx-0 md:w-md"
+    >
       <Nuxt />
     </div>
     <Footer />
